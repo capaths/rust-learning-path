@@ -7,3 +7,8 @@ these are called the **prelude**.
 them with ``mut``.
 - Functions after a type and two colons are called **associated functions**, like
 ``String::new()``, which is an associated function of the type ``String``.
+
+- To use a crate (collection of Rust source code files), you must add a
+dependency to ``Cargo.toml``, and then build the project using ``cargo build`` that will install that dependency, and that dependency's dependencies.
+- Crates can be found at [crates.io](https://crates.io/).
+- Rust has a strong, static type system
