@@ -9,7 +9,7 @@ fn main() {
     let n: u32 = input.trim().parse().expect("Please type a number!");
 
     if n > 186 {
-        println!("The number you entered is too large to calculate with the loop algorithm.");
+        println!("The number you entered is too large to calculate.");
         return;
     }
 
